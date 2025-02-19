@@ -1,0 +1,7 @@
+name: MCP Python SDK
+version: 1.0.0
+
+docs:
+  name: MCP Python SDK Readme
+  startUrl: https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/refs/heads/main/README.md
+  favicon: https://mintlify.s3-us-west-1.amazonaws.com/mcp/_generated/favicon/favicon.ico?v=3
