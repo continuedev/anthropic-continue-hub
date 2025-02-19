@@ -1,7 +1,7 @@
-name: MCP LLMs
+name: MCP Typescript SDK
 version: 1.0.0
 
 docs:
-  name: ModelContextProtocol LLMs
-  startUrl: https://modelcontextprotocol.io/llms-full.txt
-  favicon: https://mintlify.s3-us-west-1.amazonaws.com/mcp/_generated/favicon/favicon.ico?v=3
+  - name: MCP Typescript SDK Readme
+    startUrl: https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/refs/heads/main/README.md
+    favicon: https://mintlify.s3-us-west-1.amazonaws.com/mcp/_generated/favicon/favicon.ico?v=3
