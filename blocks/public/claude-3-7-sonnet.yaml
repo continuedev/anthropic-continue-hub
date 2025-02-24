@@ -1,0 +1,12 @@
+name: Claude 3.7 Sonnet
+version: 1.0.0
+
+models:
+  - name: Claude 3.7 Sonnet
+    provider: anthropic
+    model: claude-3-7-sonnet-latest
+    apiKey: ${{ inputs.ANTHROPIC_API_KEY }}
+    roles:
+      - chat
+      - edit
+      - apply
