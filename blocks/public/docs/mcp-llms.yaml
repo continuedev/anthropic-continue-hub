@@ -1,5 +1,6 @@
 name: MCP LLMs
 version: 1.0.0
+schema: v1
 
 docs:
   - name: ModelContextProtocol LLMs

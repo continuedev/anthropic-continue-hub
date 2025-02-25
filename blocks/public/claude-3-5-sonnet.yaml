@@ -1,5 +1,6 @@
 name: Claude 3.5 Sonnet
 version: 1.0.0
+schema: v1
 
 models:
   - name: Claude 3.5 Sonnet
