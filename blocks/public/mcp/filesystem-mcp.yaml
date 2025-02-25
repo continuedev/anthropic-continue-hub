@@ -1,0 +1,11 @@
+name: Filesystem MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: Filesystem
+    command: npx
+    args:
+      - "-y"
+      - "@modelcontextprotocol/server-filesystem"
+      - "${{ inputs.PATH }}"

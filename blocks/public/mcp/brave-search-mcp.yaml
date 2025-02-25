@@ -1,0 +1,12 @@
+name: Brave Search MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: Brave Search
+    command: npx
+    args:
+      - "-y"
+      - "@modelcontextprotocol/server-brave-search"
+    env:
+      BRAVE_API_KEY: ${{ inputs.BRAVE_API_KEY }}

@@ -1,0 +1,11 @@
+name: Postgres MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: Postgres
+    command: npx
+    args:
+      - "-y"
+      - "@modelcontextprotocol/server-postgres"
+      - "${{ inputs.CONNECTION_STRING }}"
