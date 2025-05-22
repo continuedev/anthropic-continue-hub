@@ -1,5 +1,5 @@
 name: Claude 4 Opus
-version: 1.0.1
+version: 1.0.2
 schema: v1
 
 models:
@@ -16,3 +16,4 @@ models:
       maxTokens: 32000
     capabilities:
       - tool_use
+      - image_input
