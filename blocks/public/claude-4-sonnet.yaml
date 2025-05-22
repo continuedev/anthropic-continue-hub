@@ -1,5 +1,5 @@
 name: Claude 4 Sonnet
-version: 1.0.0
+version: 1.0.1
 schema: v1
 
 models:
@@ -14,3 +14,5 @@ models:
     defaultCompletionOptions:
       contextLength: 200000
       maxTokens: 64000
+    capabilities:
+      - tool_use
