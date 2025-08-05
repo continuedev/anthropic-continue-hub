@@ -1,0 +1,19 @@
+name: Claude 4.1 Opus
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Claude 4.1 Opus
+    provider: anthropic
+    model: claude-opus-4-1-20250805
+    apiKey: ${{ inputs.ANTHROPIC_API_KEY }}
+    roles:
+      - chat
+      - edit
+      - apply
+    defaultCompletionOptions:
+      contextLength: 200000
+      maxTokens: 32000
+    capabilities:
+      - tool_use
+      - image_input
