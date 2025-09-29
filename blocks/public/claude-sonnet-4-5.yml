@@ -1,0 +1,19 @@
+name: Claude 4.5 Sonnet
+version: 1.0.2
+schema: v1
+
+models:
+  - name: Claude 4 Sonnet
+    provider: anthropic
+    model: claude-sonnet-4-5
+    apiKey: ${{ inputs.ANTHROPIC_API_KEY }}
+    roles:
+      - chat
+      - edit
+      - apply
+    defaultCompletionOptions:
+      contextLength: 200000
+      maxTokens: 64000
+    capabilities:
+      - tool_use
+      - image_input
